@@ -7,7 +7,7 @@
 .celebrity:hover{
     box-shadow: rgba(22, 20, 156, 0.493) 0px 3px 8px;
     transition: all 0.22s ease-in-out;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .celebrity h2{
     font-weight: 600;

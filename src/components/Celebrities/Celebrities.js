@@ -19,6 +19,7 @@ const Celebrities = () => {
     // contain single celebrity name 
 
     const [singlesName, setSinglesName] = useState([])
+    const [totalAddCelebrities, setTotalAddCelebrities] = useState(0)
 
     const invitePersonList = (celebrity) => {
         // console.log(celebrity)
@@ -33,6 +34,7 @@ const Celebrities = () => {
         if (celebrityName.indexOf(celebrity.name) === -1) {
             celebrityName.push(celebrity.name);
             newlist.push(celebrity)
+            setTotalAddCelebrities(totalAddCelebrities + 1)
 
 
         }
@@ -61,7 +63,7 @@ const Celebrities = () => {
                 <div>
                     <div className="summary">
 
-                        <InviteSummary inviteCelebrities={inviteCelebrities}></InviteSummary>
+                        <InviteSummary totalAddCelebrities={totalAddCelebrities} inviteCelebrities={inviteCelebrities}></InviteSummary>
                     </div>
                 </div>
             </div>

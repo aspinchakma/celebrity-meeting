@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Elon Reeve Musk",
         "age": 50,
+        "birthPlace": "Pretoria, South Africa",
         "salary": 100000,
         "position": "CEO of Tesla Motors",
         "img": "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg"
@@ -11,6 +12,7 @@
         "id": 2,
         "name": "Bill Gates",
         "age": 65,
+        "birthPlace": "Seattle, Washington, U.S.",
         "salary": 150000,
         "position": "Co-founder of Microsof",
         "img": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg"
@@ -19,6 +21,7 @@
         "id": 3,
         "name": "Jeff Bezos",
         "age": 57,
+        "birthPlace": "Albuquerque, New Mexico",
         "salary": 200000,
         "position": "executive chairman",
         "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg"
@@ -27,6 +30,7 @@
         "id": 4,
         "name": "Mark Zuckerberg",
         "age": 37,
+        "birthPlace": "White Plains, New York",
         "salary": 120000,
         "position": "CEO of Facebook",
         "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Mark_Zuckerberg_F8_2019_Keynote_%2847721886632%29_%28cropped%29.jpg"
@@ -35,6 +39,7 @@
         "id": 5,
         "name": "Larry Page",
         "age": 48,
+        "birthPlace": "East Lansing, Michigan, U.S.",
         "salary": 340000,
         "position": "Co-founding Google",
         "img": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg"
@@ -43,6 +48,7 @@
         "id": 6,
         "name": "Warren Buffett",
         "age": 91,
+        "birthPlace": "Omaha, Nebraska U.S.",
         "salary": 500000,
         "position": "CEO of Berkshire Hathaway",
         "img": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Warren_Buffett_with_Fisher_College_of_Business_Student_-_4395161160_%28cropped%29.jpg"
@@ -51,6 +57,7 @@
         "id": 7,
         "name": "Sundar Pichai",
         "age": 49,
+        "birthPlace": "Madurai, India",
         "salary": 230000,
         "position": "CEO of Google ",
         "img": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Sundar_pichai.png"
@@ -59,6 +66,7 @@
         "id": 8,
         "name": "Dara Khos.",
         "age": 52,
+        "birthPlace": "Iran",
         "salary": 194000,
         "position": "Chief Executive Officer of Uber",
         "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/CEO_of_Uber_Technologies_Dara_Khosrowshahi_in_New_York_-_2019_%28cropped%29.jpg"
@@ -67,6 +75,7 @@
         "id": 9,
         "name": "Lakshmi Mittal",
         "age": 71,
+        "birthPlace": "Sadulpur, India",
         "salary": 135000,
         "position": "board of directors of Goldman ",
         "img": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Lakshmi_Mittal_LM.jpg"
@@ -75,6 +84,7 @@
         "id": 10,
         "name": "Tim Cook",
         "age": 60,
+        "birthPlace": "Mobile, Alabama, U.S.",
         "salary": 500000,
         "position": "CEO of Apple Inc",
         "img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/%D0%A2%D0%B8%D0%BC_%D0%9A%D1%83%D0%BA_%2802-09-2021%29.jpg"
@@ -83,6 +93,7 @@
         "id": 11,
         "name": "Lei Jun",
         "age": 50,
+        "birthPlace": " Xiantao, Hubei, China",
         "salary": 330000,
         "position": "Founder and CEO of Xiaomi",
         "img": "https://upload.wikimedia.org/wikipedia/commons/9/9d/2019%E9%9B%B7%E8%BB%8D.png"
@@ -91,14 +102,16 @@
         "id": 12,
         "name": "Jamie Dimon",
         "age": 65,
+        "birthPlace": "New York City, U.S.",
         "salary": 560000,
         "position": "CEO of JPMorgan Chase",
         "img": "https://upload.wikimedia.org/wikipedia/commons/a/ab/The_Global_Financial_Context_James_Dimon_%28cropped%29.jpg"
     },
     {
         "id": 13,
-        "name": " Bernard Arnault",
+        "name": "Bernard Arnault",
         "age": 72,
+        "birthPlace": "Roubaix, France",
         "salary": 134000,
         "position": "Chief Executive of LVMH",
         "img": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bernard_Arnault_%283%29_-_2017_%28cropped%29.jpg"
@@ -107,6 +120,7 @@
         "id": 14,
         "name": "Mark Parker",
         "age": 65,
+        "birthPlace": "Poughkeepsie, New York, U.S.",
         "salary": 139000,
         "position": "Executive Chairman of NIKE",
         "img": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Mark_Parker_-_World_Economic_Forum_2008.jpg"
@@ -115,6 +129,7 @@
         "id": 15,
         "name": "Zhang Xin",
         "age": 56,
+        "birthPlace": "Beijing, China",
         "salary": 210000,
         "position": "CEO of SOHO China",
         "img": "https://upload.wikimedia.org/wikipedia/commons/d/db/Zhang_Xin_2019_Interview_Documentary_crop.jpg"
@@ -123,6 +138,7 @@
         "id": 16,
         "name": "Robin Li",
         "age": 52,
+        "birthPlace": "Yangquan, Shanxi",
         "salary": 290000,
         "position": "CEO of Baidu",
         "img": "https://upload.wikimedia.org/wikipedia/commons/0/05/Robin_Li_at_the_Web_2.0_Summit_2010_%28cropped%29.jpg"
@@ -131,6 +147,7 @@
         "id": 17,
         "name": "Evan Spiegel",
         "age": 31,
+        "birthPlace": "Los Angeles, California, U.S.",
         "salary": 250000,
         "position": "CEO of Snap Inc.",
         "img": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Evan_Spiegel%2C_founder_of_Snapchat.jpg"
@@ -139,6 +156,7 @@
         "id": 18,
         "name": "Karl-Johan",
         "age": 46,
+        "birthPlace": "Ränneslöv, Sweden",
         "salary": 160000,
         "position": "CEO of H&M",
         "img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Karl-Johan_Persson_2014-09-22_001.jpg"
@@ -147,6 +165,7 @@
         "id": 19,
         "name": "Safra A. Catz",
         "age": 59,
+        "birthPlace": "Holon, Israel",
         "salary": 300000,
         "position": "CEO of Oracle",
         "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Safra_Catz_2014_%28cropped%29.jpg"
@@ -155,6 +174,7 @@
         "id": 20,
         "name": "Meg Whitman",
         "age": 65,
+        "birthPlace": "Huntington, New York, U.S.",
         "salary": 250000,
         "position": "CEO of Florists",
         "img": "https://upload.wikimedia.org/wikipedia/commons/8/81/Meg_Whitman_crop.jpg"

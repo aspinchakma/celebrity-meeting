@@ -6,7 +6,8 @@
 }
 .celebrity:hover{
     box-shadow: rgba(22, 20, 156, 0.493) 0px 3px 8px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.22s ease-in-out;
+    border-radius: 5px;
 }
 .celebrity h2{
     font-weight: 600;
@@ -17,8 +18,8 @@
     height: 290px;
 }
 .invite-button{
-    background-color:#077b8a;
-    border:1px solid #077b8a;
+    background-color:#d72631;
+    border:1px solid #d72631;
     font-size: 20px;
     color:white;
     width:100%;
@@ -28,7 +29,7 @@
 }
 .invite-button:hover{
     background-color: white;
-    color:#077b8a;
+    color:#d72631;
     transition: all 0.3s ease-in-out;
 }
 .invite-icon{

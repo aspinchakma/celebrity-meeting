@@ -5,7 +5,6 @@ import React from 'react';
 import './Celebrity.css'
 
 const Celebrity = (props) => {
-    // console.log(props)
     const { name, img, age, position, salary } = props.celebrity;
     return (
         <div className="celebrity">
@@ -13,9 +12,8 @@ const Celebrity = (props) => {
             <h2>Name : {name}</h2>
             <p>Age : {age}</p>
             <p>Position : {position}</p>
-            <p>Salary : {salary}</p>
+            <p>Salary : ${salary}</p>
             <button onClick={() => props.invitePersonList(props.celebrity)} className="invite-button">Invite <FontAwesomeIcon className="invite-icon" icon={faPlus} /> </button>
-
         </div>
     );
 };

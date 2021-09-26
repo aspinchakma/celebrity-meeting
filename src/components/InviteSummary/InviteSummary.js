@@ -10,7 +10,7 @@ const InviteSummary = (props) => {
     return (
         <div>
             <h3>invited celebrities summary</h3>
-            <p>Total Amount : {totalAmount}</p>
+            <p>Total Amount :{totalAmount}</p>
             <div>
                 <h4>A list Of celebrities to invite</h4>
                 <ol>

@@ -6,7 +6,8 @@ const Header = () => {
         <div>
 
             <nav>
-                <h2>Milibong</h2>
+                {/* set website name  */}
+                <h2>MeetUp</h2>
                 <div className="link-container">
                     <a href="./home">Home</a>
                     <a href="./contact">Contact</a>

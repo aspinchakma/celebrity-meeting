@@ -5,6 +5,7 @@ import './Celebrities.css'
 
 const Celebrities = () => {
 
+    // Load Data 
     const [celebrities, setCelebraties] = useState([])
     useEffect(() => {
         fetch('./Celebrities.json')
@@ -13,18 +14,39 @@ const Celebrities = () => {
     }, []);
 
     const [inviteCelebrities, setInviteCelebritries] = useState([])
+
+
+    // contain single celebrity name 
+
+    const [singlesName, setSinglesName] = useState([])
+
     const invitePersonList = (celebrity) => {
         // console.log(celebrity)
-        const newlist = [...inviteCelebrities, celebrity];
+
+
+        const newlist = [...inviteCelebrities];
+
+        // checking dubles name 
+        const celebrityName = [...singlesName];
+
+        // ignore dobules name
+        if (celebrityName.indexOf(celebrity.name) === -1) {
+            celebrityName.push(celebrity.name);
+            newlist.push(celebrity)
+
+
+        }
         setInviteCelebritries(newlist)
-        // console.log(newlist)
+        setSinglesName(celebrityName)
+
+
 
     }
     return (
         <>
             <div className="highlight">
                 <h1>Invite A Celebrity To Our Event</h1>
-                <h3>Total Budget: 1.5M</h3>
+                <h2>Total Budget: 2.0M</h2>
             </div>
             <div className="container">
                 <div className="celebrites">

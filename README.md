@@ -4,9 +4,9 @@ Live Website Link (https://github.com/facebook/create-react-app).
 
 ## About This Website : 
 
-1.We can invite celebrities by select,
-2.Our total budget has  2.0M ,
-3.Audience can meets their favourite celebrities person by buy ticket.
+1.We can invite celebrities by select,<br/>
+2.Our total budget has  2.0M ,<br/>
+3.Audience can meets their favourite celebrities person by buy ticket.<br/>
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

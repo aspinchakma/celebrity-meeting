@@ -1,5 +1,7 @@
 import React from 'react';
-import './InviteSummary.css'
+import { NavLink } from 'react-router-dom';
+import Person from '../Person/Person';
+import './InviteSummary.css';
 
 const InviteSummary = (props) => {
     // console.log(props.inviteCelebrities)
@@ -14,13 +16,14 @@ const InviteSummary = (props) => {
             <h4>Total Invite :{totalAddCelebrities} </h4>
             <p>Total Amount :{totalAmount}</p>
 
-            <div>
+            <div className="child-container">
                 <h3>A list Of celebrities to invite</h3>
-                <ol>
+                <div>
                     {
-                        props.inviteCelebrities.map(celebrity => <li key={celebrity.id}>{celebrity.name}</li>)
+                        props.inviteCelebrities.map(celebrity => <Person key={celebrity.id} celebrity={celebrity}></Person>)
                     }
-                </ol>
+                </div>
+                <NavLink to="/inviteReview" className="see-invite-person">See Details</NavLink>
             </div>
         </div>
     );

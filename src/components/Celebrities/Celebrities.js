@@ -27,7 +27,7 @@ const Celebrities = () => {
 
         const newlist = [...inviteCelebrities];
 
-        // checking dubles name 
+        // checking dibbles name 
         const celebrityName = [...singlesName];
 
         // ignore dobules name
@@ -39,7 +39,7 @@ const Celebrities = () => {
 
         }
         setInviteCelebritries(newlist)
-        setSinglesName(celebrityName)
+        setSinglesName(celebrityName);
 
 
 
